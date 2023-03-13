@@ -1,0 +1,28 @@
+@media (max-width: 42em) {
+  html {
+    font-size: 52%;
+  }
+}
+
+@media (max-width: 35em) {
+  html {
+    font-size: 45%;
+  }
+  body {
+    padding: 4rem;
+  }
+  button {
+    font-size: 1.4rem;
+  }
+}
+
+@media (max-width: 28em) {
+  body {
+    padding: 4rem;
+    margin: 12rem auto;
+  }
+  .bottom-section {
+    display: flex;
+    flex-direction: column;
+  }
+}

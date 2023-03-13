@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  font-size: 1.6rem;
+  background-color: #e6eff5;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card-container {
+  margin: 0 auto;
+  width: 63.5rem;
+  border-radius: 0.8rem;
+  overflow: hidden;
+  box-shadow: 0px 15px 30px rgba(0, 81, 171, 0.148847);
+}
+
+/* Top Section */
+h1 {
+  color: #2ab3b1;
+  font-weight: 700;
+  font-size: 2.4rem;
+  letter-spacing: -0.3px;
+  line-height: 2.8rem;
+  margin-bottom: 2.4rem;
+}
+
+.top-section {
+  background-color: #ffffff;
+  padding: 4rem;
+}
+
+.top-section h2 {
+  color: #c0df33;
+  font-weight: 700;
+  font-size: 1.8rem;
+  letter-spacing: -0.225px;
+  line-height: 1.8rem;
+  margin-bottom: 1.1rem;
+}
+
+.top-section p {
+  color: #9aa7be;
+  line-height: 2.6rem;
+  letter-spacing: -0.2px;
+}
+
+/* Top Section */
+.bottom-section {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+
+  color: #ffffff;
+}
+
+.left-section {
+  background-color: #2bb3b1;
+  padding: 4rem;
+  display: flex;
+  flex-direction: column;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: -0.225px;
+  line-height: 2.1rem;
+}
+
+#price-amount {
+  font-size: 3.2rem;
+  font-weight: 700;
+  line-height: 3.7rem;
+  letter-spacing: -0.4px;
+
+  display: flex;
+  gap: 1.1rem;
+
+  margin-top: 1.8rem;
+}
+
+#price-amount span {
+  font-size: 1.6rem;
+  font-weight: 400;
+  letter-spacing: -0.2px;
+  opacity: 0.5;
+}
+
+.left-section p {
+  letter-spacing: -0.2px;
+  margin-top: 0.4rem;
+}
+
+button {
+  text-decoration: none;
+  background: #c0df33;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.0973011);
+  border-radius: 5px;
+  border: none;
+  padding: 1.5rem 4rem;
+
+  font-weight: 700;
+  color: #ffffff;
+  margin-top: 3rem;
+  cursor: pointer;
+}
+
+.right-section {
+  background-color: #4abebd;
+  padding: 4rem;
+}
+
+ul {
+  list-style: none;
+  font-size: 1.4rem;
+  line-height: 2rem;
+  letter-spacing: 0.175px;
+  opacity: 0.75;
+  margin-top: 1.8rem;
+}
